@@ -1,0 +1,28 @@
+{
+    "imageData":[
+        {"imgSrc": "./images/m-1.jpg",
+    "imgName": "Image 1"
+    },
+    {"imgSrc": "./images/m-8.jpg",
+"imgName": "Image 2"
+},
+{"imgSrc": "./images/m-3.jpg",
+"imgName": "Image 3"
+},
+{"imgSrc": "./images/m-4.jpg",
+"imgName": "Image 4"
+},
+{"imgSrc": "./images/m-1.jpg",
+    "imgName": "Image 1"
+    },
+    {"imgSrc": "./images/m-8.jpg",
+"imgName": "Image 2"
+},
+{"imgSrc": "./images/m-3.jpg",
+"imgName": "Image 3"
+},
+{"imgSrc": "./images/m-4.jpg",
+"imgName": "Image 4"
+}
+    ]
+}

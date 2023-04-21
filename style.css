@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-color: #9bdaf3;
+    overflow-x: hidden;
+} 
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0195af;
+}
+
+.header-logo{
+    width: 8%;
+}
+.header-nav{
+    width: 33vw;
+}
+
+.header-nav a{
+text-decoration: none;
+color: white;
+margin-right: 10%;
+}
+
+main{
+    margin: 4vw;
+}
+
+#imageCardArea{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.imgCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1px;
+}
+.cardImg{
+    width: 22vw;
+}
+.hoverPart{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    transform: translate(0%, 300%);
+    visibility: hidden;
+}
+.imgDownloadBtn{
+    background-color: #ece6ea;
+    color: rgb(37, 130, 211);
+    border-radius: 25px;
+    padding: 1% 10% 1% 10%;
+	border: none;
+    
+}
+.cardImgName{
+    color: rgb(1, 4, 7);
+    
+}
+.imgCard:hover .hoverPart{
+    visibility: visible;
+}
+.imgCard:hover .cardImg{
+    opacity: 0.5;
+}
